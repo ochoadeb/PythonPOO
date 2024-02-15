@@ -15,7 +15,7 @@ def main():
 
     opcion = int(input("Seleccione la operación:\n1. Suma\n2. Multiplicación\nIngrese el número de la opción: "))
 
-    operacion_aritmetica(num1, num2, opcion)
+    operacion(num1, num2, opcion)
 
 if __name__ == "__main__":
     main()
